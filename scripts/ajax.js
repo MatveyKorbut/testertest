@@ -1,5 +1,5 @@
 
-const url = "http://date.jsontest.com/";
+const url = "https://date.jsontest.com/";
 
 const formats = {
  '.': 'dd.MM.yyyy HH:mm:ss',

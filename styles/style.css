@@ -16,3 +16,15 @@
   width: 150px;
 }
 
+.rotate-body {
+  transform: rotate(90deg);
+  transform-origin:bottom left;
+  
+  position:absolute;
+  top:-100vw;
+  
+  height:100vw;
+  width:100vh;
+
+}
+

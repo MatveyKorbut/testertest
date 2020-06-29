@@ -59,7 +59,7 @@ function selectValues() {
 
 function createMask() {
   block = document.getElementById('mask');
-  block.classList.add("wrapper")
+
   let mask = '';
   const buttons = document.getElementById('mask').getElementsByTagName('button');
   for (let i = 0; i < buttons.length; i++) {
@@ -70,6 +70,7 @@ function createMask() {
 
 function createFilter() {
   const div = document.createElement('div');
+  div.className="wrapper"
   div.id = 'mask'
   for (let i = 0; i < 16; i++) {
     const button = document.createElement('button');
